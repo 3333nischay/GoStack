@@ -1,0 +1,25 @@
+.bgImageZoom {
+  transform: scale(1); /* More zoom on mobile screens */
+  transition: transform 0.3s ease; /* Smooth transition when resizing */
+}
+
+/* Medium screens */
+@media (min-width: 768px) {
+  .bgImageZoom {
+    transform: scale(1); /* Less zoom on medium screens */
+  }
+}
+
+/* Large screens */
+@media (min-width: 1024px) {
+  .bgImageZoom {
+    transform: scale(1); /* Even less zoom on large screens */
+  }
+}
+
+/* Extra large screens */
+@media (min-width: 1280px) {
+  .bgImageZoom {
+    transform: scale(1); /* Minimal zoom on extra large screens */
+  }
+}

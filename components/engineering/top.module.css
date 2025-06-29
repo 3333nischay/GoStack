@@ -1,0 +1,23 @@
+.bgImageZoom {
+  transform: scale(2); 
+  transition: transform 0.3s ease; 
+}
+
+
+@media (min-width: 768px) {
+  .bgImageZoom {
+    transform: scale(1.1); 
+  }
+}
+
+@media (min-width: 1024px) {
+  .bgImageZoom {
+    transform: scale(1.12); 
+  }
+}
+
+@media (min-width: 1280px) {
+  .bgImageZoom {
+    transform: scale(1); 
+  }
+}
